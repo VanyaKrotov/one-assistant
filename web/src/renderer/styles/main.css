@@ -1,0 +1,149 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* splitter-layout styles */
+
+.splitter-layout {
+  position: relative;
+}
+
+.splitter-layout > .layout-splitter {
+  transition: 200ms;
+  background-color: var(--oa-content-bg);
+}
+
+.splitter-layout > .layout-splitter:hover {
+  transition: 150ms;
+  background-color: var(--rs-primary-700);
+  opacity: 0.5;
+}
+
+.splitter-layout > .layout-splitter:active {
+  background-color: var(--rs-primary-700);
+  opacity: 0.7;
+}
+
+/* splitter-layout end */
+
+/* react-contextmenu styles */
+
+.react-contextmenu {
+  z-index: 10;
+}
+
+/* react-contextmenu end */
+
+/* rsuite restyle */
+
+.rs-dropdown-menu {
+  min-width: 200px;
+  border-radius: 0;
+  padding: 4px 0px;
+  box-shadow: var(--rs-shadow-overlay);
+}
+
+.rs-dropdown-menu .rs-dropdown-item {
+  padding: 6px 8px;
+}
+
+.rs-dropdown-menu .rs-dropdown-item:hover {
+  background-color: var(--rs-primary-800);
+}
+
+/* rsuite restyle end */
+
+button {
+  outline: none;
+  user-select: none;
+}
+
+.rs-btn,
+.rs-input {
+  border-radius: 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.width-300 {
+  width: 300px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+form.hide-errors .rs-form-error-message-wrapper {
+  display: none;
+}
+
+.without-shadow {
+  box-shadow: none;
+}
+
+.body-bg {
+  background-color: var(--rs-body);
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 55%, 0.3);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

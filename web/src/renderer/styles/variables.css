@@ -1,0 +1,13 @@
+body.rs-theme-dark {
+  --rs-body: #1a1d24;
+  --oa-frame-bg: #0f131a;
+
+  --oa-content-bg: #20242c;
+  --oa-active-page-item: #20242c;
+}
+
+/* !! */
+body.rs-theme-light {
+  --rs-body: #1a1d24;
+  --oa-frame-bg: #0f131a;
+}

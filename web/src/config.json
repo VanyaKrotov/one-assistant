@@ -1,0 +1,11 @@
+{
+  "firebase": {
+    "apiKey": "AIzaSyBRO-0Dclr2I7y-jgSbDcfPdkKXguXdhTc",
+    "authDomain": "one-personal-assistant.firebaseapp.com",
+    "databaseURL": "https://one-personal-assistant-default-rtdb.firebaseio.com",
+    "projectId": "one-personal-assistant",
+    "storageBucket": "one-personal-assistant.appspot.com",
+    "messagingSenderId": "101592005645",
+    "appId": "1:101592005645:web:b5d34272aeacb0f2546944"
+  }
+}
